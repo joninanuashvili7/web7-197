@@ -1,0 +1,44 @@
+.river {
+    width: 1440px;
+    height: 1020px;
+}
+.river-box {
+    position: absolute;
+    z-index: 5;
+}
+.sun {
+    width: 150px;
+    height: 150px;
+}
+.sun-box {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    animation-name: sun;
+    animation-duration: 20s;
+}
+@keyframes sun {
+    from {top: 0;}
+    to {top: 30px;}
+    from {left: 0;}
+    to {left: 1250px;}
+}
+.duck {
+    width: 75px;
+    height: 75px;
+}
+.duck-box {
+    position: relative;
+    top: 450px;
+    left: 1150px;
+    z-index: 15;
+    animation-name: duck;
+    animation-duration: 15s;
+}
+@keyframes duck {
+    from {top: 450px;}
+    to {top: 350px;}
+    from {left: 1150px;}
+    to {left: 1000px;}
+}
